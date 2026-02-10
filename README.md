@@ -4,16 +4,13 @@ I fine-tuned Google's FLAN-T5-small model on news articles to improve summarizat
 
 ## Results
 
-Started with a baseline ROUGE-L score of 0.2216, and after fine-tuning got it up to 0.2373 - about 7% improvement by training with 100 examples
+Started with a baseline ROUGE-L score of 0.2216, and after fine-tuning got it up to 0.2373 - about 7% improvement. Not bad for training on just 100 examples!
 
 ## How to Run This
 
-The easiest way is through Google Colab:
+**[Open in Google Colab](https://colab.research.google.com/drive/1tt1WNLD6UQGFC6x85NeRaOGM4I2hzTYf?usp=sharing)**
 
-1. Open `Fine_Tuning_Notebook.ipynb` in this repo
-2. Click the "Open in Colab" badge at the top of the notebook
-3. Run all the cells in order
-4. You'll get a Gradio demo link to test the model
+Just click the link above, then run all cells in order. You'll get a Gradio demo link at the end to test the model.
 
 ## What I Did
 
