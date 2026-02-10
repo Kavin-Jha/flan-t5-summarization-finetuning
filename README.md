@@ -4,7 +4,7 @@ I fine-tuned Google's FLAN-T5-small model on news articles to improve summarizat
 
 ## Results
 
-Started with a baseline ROUGE-L score of 0.2216, and after fine-tuning got it up to 0.2373 - about 7% improvement. Not bad for training on just 100 examples!
+Started with a baseline ROUGE-L score of 0.2216, and after fine-tuning got it up to 0.2373
 
 ## How to Run This
 
